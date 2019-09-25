@@ -139,9 +139,11 @@
 	height: 80px;
 	border-radius:50px;
 	margin: auto;
+	margin-bottom: 5%;
 }
 .service_img_1{
     background-color: #C1301D;
+    margin-bottom: 5%;
 }
 .service_img_2 img{
 	padding-top: 20px;
@@ -527,4 +529,255 @@ footer{
     margin: 20px auto;
     border: 1px solid white;
 }
+.form{
+margin:25px 0 50px 0;
+}
+.form-div{
+ width: 80%;
+}
+.form_contact{
+	width: 30%;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -110px;
+}
+.form_contact h3{
+ text-transform: uppercase;
+ padding-left: 0;
+ 
+}
+.form_address{
 
+}
+.form_contact p{
+    padding-left: 25px;
+    color: gray;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.forma{
+    width: 65%;
+    left: 60px;
+    margin: 25px 0 50px 0;
+    position: relative;
+    display: inline-block;
+}
+.forma input{
+	width: 46%;
+    padding: 12px 2px;
+    font-size: 17px;
+}
+.forma input:first-of-type{
+	margin-right:3%;
+}
+.forma_1{
+    margin: 10px 0;
+}
+.forma_2{
+    margin: 10px 0;
+}
+.forma_3{
+width: 100%
+}
+.forma_3 textarea{
+    width: 97.9%;
+    height: 200px;
+    resize: none;
+}
+.forma_4{
+
+}
+.forma_4 button {
+	font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background: none;
+    border: 1px solid gray;
+    color: gray;
+    transition:color 0.5s;
+}
+
+.forma_4 button:hover{
+	color:white;
+	background-color:#CA2B12;
+}
+
+.forma_4 p{
+	display: inline-block;
+    font-size: 12px;
+    color: gray;
+    padding-left: 15px;
+
+}
+
+@media screen and (max-width: 836px) {
+	*{
+		margin:0px;
+	}
+
+	.startup{
+		width:30%;
+	}
+
+	.menu{
+		width: 70%;
+		text-align: center;
+	}
+
+	.menu_link{
+		width: 16%;
+	}
+
+	.angle_right {
+    position: absolute;
+    right: 3px;
+    top: 20%;
+    background: #00000045;
+    padding: 16px;
+	}
+	.angle_left {
+    position: absolute;
+    left: 0px;
+    top: 18%;
+    z-index: 2;
+    padding: 16px;
+    background: #00000045;
+	}
+
+	.social_buttons {
+    display: none;
+    left: 28px;
+    z-index: 3;
+    bottom: 5px;
+    position: absolute;
+}
+	.social_buttons p {
+    padding: 5px 7px;
+}
+
+	.work_gallery {
+    width: 80%;
+    margin: 45px auto;
+    text-align: center;
+
+}
+
+	.work_gallery > div {
+    width: 25%;
+    margin: 22px 22px 0 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.img_hover_content {
+    margin-top: 20%;
+}
+
+.sponsor_second_div {
+     width: 100%; 
+}
+
+.sponsor_text {
+	width: 100%;
+    text-align: center;
+}
+
+.sponsor_slide {
+	width:100%;
+}
+
+.form {
+    width: 80%;
+    margin: auto;
+}
+
+.forma input {
+    width: 90%;
+    padding: 12px 2px;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.forma_3 textarea {
+    width: 90.9%;
+    height: 200px;
+    resize: none;
+    margin-left: 15px;
+
+}
+
+.forma_4 p {
+    display: inline-block;
+    font-size: 12px;
+    color: gray;
+}
+
+.forma_4 button{
+	margin-left: 15px;
+
+}
+
+.footer {
+    width: 100%; 
+    padding: 70px 0;
+}
+
+.footer_twitter {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+}
+
+@media screen and (max-width: 550px){
+	.menu_link{
+		width: 30%;
+	}
+
+	.angle_right{
+		top: 9%;
+		right: 5px;
+	}
+
+	.angle_left{
+		top: 9%;
+	}
+
+	.social_buttons{
+		left:2px;
+	}
+
+	.staff_img img {
+    width: 100%;
+    margin-left: -3px;
+	}
+
+	.form_contact p {
+	    padding-left: 0px; 
+	    color: gray;
+	    font-size: 18px;
+	    margin: 2px 0;
+
+	}
+
+	.forma_3 textarea {
+	    width: 92.9%;
+	    margin-left: 50px;
+	}
+
+	.forma input{
+		margin-left: 50px;
+	}
+
+	.forma_4 button{
+		margin-left: 50px;
+	}
+
+	.forma_4 p{
+		margin-left:35px;
+	}
+
+}
