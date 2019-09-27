@@ -45,7 +45,7 @@
 	text-decoration: none;
 	margin: 0 15px;
 	color:white;
-	transition: color 0.5s;
+	transition: all 0.5s;
 	
 }
 
@@ -53,6 +53,7 @@
 	color:#CC2B14;
 	background:white;
 	border-radius:10px;
+	padding:5px 10px;
 }
 
 .sub_content{
@@ -170,6 +171,11 @@
 .staff_about_main{
 	display:flex;
 	justify-content:space-around;
+	margin-bottom: 30px;
+}
+
+.staff_about_info_1{
+	margin-right: 10px;
 }
 
 .staff_img_main{
@@ -367,6 +373,11 @@
 
 }
 
+.get_in_touch_layer{
+	width:100%;
+	background-color: #ca2b1273;
+}
+
 .get_in_touch_content a,p,button{
 	margin-top:20px;
 }
@@ -540,20 +551,24 @@ margin:25px 0 50px 0;
     display: inline-block;
     margin: 0;
     position: relative;
-    top: -110px;
+    top: -50px;
 }
 .form_contact h3{
  text-transform: uppercase;
  padding-left: 0;
+ color: black;
  
 }
 .form_address{
-
+	margin-bottom: 30px;
 }
+
+.form_hotline{
+	margin-bottom: 30px;
+}
+
 .form_contact p{
-    padding-left: 25px;
-    color: gray;
-    font-size: 18px;
+    padding-left: 5px;
     margin: 10px 0;
 }
 .forma{
@@ -565,11 +580,13 @@ margin:25px 0 50px 0;
 }
 .forma input{
 	width: 46%;
-    padding: 12px 2px;
-    font-size: 17px;
+    padding: 12px 6px;
 }
 .forma input:first-of-type{
-	margin-right:3%;
+	margin-right: 2%;
+   
+}
+
 }
 .forma_1{
     margin: 10px 0;
@@ -581,9 +598,10 @@ margin:25px 0 50px 0;
 width: 100%
 }
 .forma_3 textarea{
-    width: 97.9%;
+    width: 97.2%;
     height: 200px;
     resize: none;
+    padding:10px 6px;
 }
 .forma_4{
 
